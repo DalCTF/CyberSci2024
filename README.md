@@ -11,6 +11,7 @@ Problems:
     - Parts
 - Defence
     - Chatbot
+    - Voter Registry
 - Forensics
     - Data is The New Currency
     - Tricky Communications
