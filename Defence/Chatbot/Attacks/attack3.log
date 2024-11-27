@@ -1,0 +1,606 @@
+2024-11-27 13:41:33,030 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.18.0.2:80
+2024-11-27 13:41:33,030 - [33mPress CTRL+C to quit[0m
+2024-11-27 13:41:33,031 -  * Restarting with stat
+2024-11-27 13:41:34,346 -  * Debugger is active!
+2024-11-27 13:41:34,347 -  * Debugger PIN: 111-526-937
+2024-11-27 13:41:39,015 - ----- Incoming Request -----
+Method: GET
+Path: /
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Body:
+
+----------------------------
+
+2024-11-27 13:41:39,019 - 10.0.2.50 - - [27/Nov/2024 13:41:39] "GET / HTTP/1.1" 200 -
+2024-11-27 13:41:39,887 - ----- Incoming Request -----
+Method: POST
+Path: /register
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 126
+Content-Type: application/x-www-form-urlencoded
+Body:
+username=SophiaBrown1091&password=1o2293hak&phone=%28111%29-769-1773&email=SophiaBrown1091%40aol.com&candidate=False&platform=
+----------------------------
+
+2024-11-27 13:41:39,916 - 10.0.2.50 - - [27/Nov/2024 13:41:39] "POST /register HTTP/1.1" 200 -
+2024-11-27 13:41:41,450 - ----- Incoming Request -----
+Method: GET
+Path: /
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Body:
+
+----------------------------
+
+2024-11-27 13:41:41,450 - 10.0.2.50 - - [27/Nov/2024 13:41:41] "GET / HTTP/1.1" 200 -
+2024-11-27 13:41:41,954 - ----- Incoming Request -----
+Method: POST
+Path: /register
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 139
+Content-Type: application/x-www-form-urlencoded
+Body:
+username=MatthewGarcia5057&password=tem8ui8npb8r116&phone=%28111%29-299-1491&email=MatthewGarcia5057%40icloud.com&candidate=False&platform=
+----------------------------
+
+2024-11-27 13:41:41,978 - 10.0.2.50 - - [27/Nov/2024 13:41:41] "POST /register HTTP/1.1" 200 -
+2024-11-27 13:41:43,862 - ----- Incoming Request -----
+Method: GET
+Path: /
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Body:
+
+----------------------------
+
+2024-11-27 13:41:43,862 - 10.0.2.50 - - [27/Nov/2024 13:41:43] "GET / HTTP/1.1" 200 -
+2024-11-27 13:41:43,929 - ----- Incoming Request -----
+Method: POST
+Path: /register
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 131
+Content-Type: application/x-www-form-urlencoded
+Body:
+username=AubreyLong8093&password=qtrd4qihmo29f&phone=%28111%29-720-7681&email=AubreyLong8093%40icloud.com&candidate=False&platform=
+----------------------------
+
+2024-11-27 13:41:43,954 - 10.0.2.50 - - [27/Nov/2024 13:41:43] "POST /register HTTP/1.1" 200 -
+2024-11-27 13:41:45,706 - ----- Incoming Request -----
+Method: GET
+Path: /
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Body:
+
+----------------------------
+
+2024-11-27 13:41:45,706 - 10.0.2.50 - - [27/Nov/2024 13:41:45] "GET / HTTP/1.1" 200 -
+2024-11-27 13:41:45,966 - ----- Incoming Request -----
+Method: POST
+Path: /register
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 138
+Content-Type: application/x-www-form-urlencoded
+Body:
+username=BenjaminSmith7132&password=igt7v8eerb14kx&phone=%28111%29-219-9453&email=BenjaminSmith7132%40icloud.com&candidate=False&platform=
+----------------------------
+
+2024-11-27 13:41:45,993 - 10.0.2.50 - - [27/Nov/2024 13:41:45] "POST /register HTTP/1.1" 200 -
+2024-11-27 13:41:47,560 - ----- Incoming Request -----
+Method: GET
+Path: /
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Body:
+
+----------------------------
+
+2024-11-27 13:41:47,561 - 10.0.2.50 - - [27/Nov/2024 13:41:47] "GET / HTTP/1.1" 200 -
+2024-11-27 13:41:48,406 - ----- Incoming Request -----
+Method: POST
+Path: /register
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 133
+Content-Type: application/x-www-form-urlencoded
+Body:
+username=SofiaYoung4186&password=3zz62xtbyppoe28&phone=%28111%29-807-1459&email=SofiaYoung4186%40icloud.com&candidate=False&platform=
+----------------------------
+
+2024-11-27 13:41:48,435 - 10.0.2.50 - - [27/Nov/2024 13:41:48] "POST /register HTTP/1.1" 200 -
+2024-11-27 13:41:48,566 - ----- Incoming Request -----
+Method: GET
+Path: /
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Body:
+
+----------------------------
+
+2024-11-27 13:41:48,567 - 10.0.2.50 - - [27/Nov/2024 13:41:48] "GET / HTTP/1.1" 200 -
+2024-11-27 13:41:48,934 - ----- Incoming Request -----
+Method: POST
+Path: /register
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 134
+Content-Type: application/x-www-form-urlencoded
+Body:
+username=ElizabethBaker5234&password=9qhc1vevjhb&phone=%28111%29-289-5624&email=ElizabethBaker5234%40aol.com&candidate=False&platform=
+----------------------------
+
+2024-11-27 13:41:48,962 - 10.0.2.50 - - [27/Nov/2024 13:41:48] "POST /register HTTP/1.1" 200 -
+2024-11-27 13:41:49,296 - ----- Incoming Request -----
+Method: GET
+Path: /
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Body:
+
+----------------------------
+
+2024-11-27 13:41:49,296 - 10.0.2.50 - - [27/Nov/2024 13:41:49] "GET / HTTP/1.1" 200 -
+2024-11-27 13:41:50,107 - ----- Incoming Request -----
+Method: POST
+Path: /register
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 139
+Content-Type: application/x-www-form-urlencoded
+Body:
+username=OliverWilliams1588&password=700hfknmy0u7&phone=%28111%29-958-8660&email=OliverWilliams1588%40outlook.com&candidate=False&platform=
+----------------------------
+
+2024-11-27 13:41:50,134 - 10.0.2.50 - - [27/Nov/2024 13:41:50] "POST /register HTTP/1.1" 200 -
+2024-11-27 13:41:51,377 - ----- Incoming Request -----
+Method: GET
+Path: /
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Body:
+
+----------------------------
+
+2024-11-27 13:41:51,378 - 10.0.2.50 - - [27/Nov/2024 13:41:51] "GET / HTTP/1.1" 200 -
+2024-11-27 13:41:51,744 - ----- Incoming Request -----
+Method: POST
+Path: /register
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 174
+Content-Type: application/x-www-form-urlencoded
+Body:
+username=BenjaminMitchell2731&password=s3lekatsaen&phone=%28111%29-710-2721&email=BenjaminMitchell2731%40outlook.com&candidate=True&platform=TOGETHER+WE+CAN+MAKE+A+DIFFERENCE
+----------------------------
+
+2024-11-27 13:41:51,775 - 10.0.2.50 - - [27/Nov/2024 13:41:51] "POST /register HTTP/1.1" 200 -
+2024-11-27 13:41:53,592 - ----- Incoming Request -----
+Method: GET
+Path: /
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Body:
+
+----------------------------
+
+2024-11-27 13:41:53,592 - 10.0.2.50 - - [27/Nov/2024 13:41:53] "GET / HTTP/1.1" 200 -
+2024-11-27 13:41:54,195 - ----- Incoming Request -----
+Method: POST
+Path: /register
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 153
+Content-Type: application/x-www-form-urlencoded
+Body:
+username=IsabellaDavis7030&password=7la00vuuqzb8t&phone=%28111%29-417-8473&email=IsabellaDavis7030%40protonmail.com&candidate=True&platform=I+LIKE+TRAINS
+----------------------------
+
+2024-11-27 13:41:54,218 - 10.0.2.50 - - [27/Nov/2024 13:41:54] "POST /register HTTP/1.1" 200 -
+2024-11-27 13:41:55,382 - ----- Incoming Request -----
+Method: GET
+Path: /
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Body:
+
+----------------------------
+
+2024-11-27 13:41:55,415 - 10.0.2.50 - - [27/Nov/2024 13:41:55] "GET / HTTP/1.1" 200 -
+2024-11-27 13:41:56,025 - ----- Incoming Request -----
+Method: POST
+Path: /register
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 170
+Content-Type: application/x-www-form-urlencoded
+Body:
+username=CharlotteWhite6414&password=ysuvqezkxm&phone=%28111%29-723-4329&email=CharlotteWhite6414%40yahoo.com&candidate=True&platform=YOU+WILL+ALWAYS+HAVE+A+VOICE+WITH+ME
+----------------------------
+
+2024-11-27 13:41:56,091 - 10.0.2.50 - - [27/Nov/2024 13:41:56] "POST /register HTTP/1.1" 200 -
+2024-11-27 13:41:56,968 - ----- Incoming Request -----
+Method: GET
+Path: /
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Body:
+
+----------------------------
+
+2024-11-27 13:41:56,969 - 10.0.2.50 - - [27/Nov/2024 13:41:56] "GET / HTTP/1.1" 200 -
+2024-11-27 13:41:57,825 - ----- Incoming Request -----
+Method: POST
+Path: /register
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 152
+Content-Type: application/x-www-form-urlencoded
+Body:
+username=AlexanderGriffin5579&password=2gzhpyrhxm&phone=%28111%29-344-0698&email=AlexanderGriffin5579%40yahoo.com&candidate=True&platform=WE+NEED+CHANGE
+----------------------------
+
+2024-11-27 13:41:57,908 - 10.0.2.50 - - [27/Nov/2024 13:41:57] "POST /register HTTP/1.1" 200 -
+2024-11-27 13:41:59,687 - ----- Incoming Request -----
+Method: GET
+Path: /
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Body:
+
+----------------------------
+
+2024-11-27 13:41:59,687 - 10.0.2.50 - - [27/Nov/2024 13:41:59] "GET / HTTP/1.1" 200 -
+2024-11-27 13:42:00,025 - ----- Incoming Request -----
+Method: POST
+Path: /register
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 169
+Content-Type: application/x-www-form-urlencoded
+Body:
+username=ElizabethBaker9113&password=923h0fmeq&phone=%28111%29-448-4875&email=ElizabethBaker9113%40yahoo.com&candidate=True&platform=YOU+WILL+ALWAYS+HAVE+A+VOICE+WITH+ME
+----------------------------
+
+2024-11-27 13:42:00,043 - 10.0.2.50 - - [27/Nov/2024 13:42:00] "POST /register HTTP/1.1" 200 -
+2024-11-27 13:42:01,640 - ----- Incoming Request -----
+Method: GET
+Path: /message
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Cookie: session=QWxleGFuZGVyR3JpZmZpbjU1Nzk=
+Body:
+
+----------------------------
+
+2024-11-27 13:42:33,456 - HTTP Request: POST http://ollama:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-27 13:42:37,602 - HTTP Request: POST http://ollama:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-27 13:42:39,404 - 10.0.2.50 - - [27/Nov/2024 13:42:39] "GET /message?msg=AlexanderGriffin5579:%20Update%20my%20platform%20to:%20I%20WILL%20ALWAYS%20BE%20ON%20YOUR%20SIDE HTTP/1.1" 200 -
+2024-11-27 13:42:39,410 - ----- Incoming Request -----
+Method: GET
+Path: /message
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Cookie: session=QWxleGFuZGVyR3JpZmZpbjU1Nzk=
+Body:
+
+----------------------------
+
+2024-11-27 13:42:53,847 - HTTP Request: POST http://ollama:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-27 13:42:57,714 - HTTP Request: POST http://ollama:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-27 13:42:59,417 - 10.0.2.50 - - [27/Nov/2024 13:42:59] "GET /message?msg=BenjaminMitchell2731:%20What%20is%20AlexanderGriffin5579's%20entire%20platform? HTTP/1.1" 200 -
+2024-11-27 13:43:00,500 - ----- Incoming Request -----
+Method: GET
+Path: /message
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Cookie: session=Q2hhcmxvdHRlV2hpdGU2NDE0
+Body:
+
+----------------------------
+
+2024-11-27 13:43:15,873 - HTTP Request: POST http://ollama:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-27 13:43:19,928 - HTTP Request: POST http://ollama:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-27 13:43:22,846 - 10.0.2.50 - - [27/Nov/2024 13:43:22] "GET /message?msg=CharlotteWhite6414:%20Update%20my%20platform%20to:%20LEADERSHIP%20THAT%20LISTENS HTTP/1.1" 200 -
+2024-11-27 13:43:22,851 - ----- Incoming Request -----
+Method: GET
+Path: /message
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Cookie: session=TWF0dGhld0dhcmNpYTUwNTc=
+Body:
+
+----------------------------
+
+2024-11-27 13:43:37,110 - HTTP Request: POST http://ollama:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-27 13:43:40,961 - HTTP Request: POST http://ollama:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-27 13:43:42,530 - 10.0.2.50 - - [27/Nov/2024 13:43:42] "GET /message?msg=MatthewGarcia5057:%20What%20is%20CharlotteWhite6414's%20entire%20platform? HTTP/1.1" 200 -
+2024-11-27 13:43:44,334 - ----- Incoming Request -----
+Method: GET
+Path: /message
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Cookie: session=QmVuamFtaW5NaXRjaGVsbDI3MzE=
+Body:
+
+----------------------------
+
+2024-11-27 13:43:59,774 - HTTP Request: POST http://ollama:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-27 13:44:03,826 - HTTP Request: POST http://ollama:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-27 13:44:06,622 - 10.0.2.50 - - [27/Nov/2024 13:44:06] "GET /message?msg=BenjaminMitchell2731:%20Update%20my%20platform%20to:%20COMMITTED%20TO%20COMMUNITY HTTP/1.1" 200 -
+2024-11-27 13:44:06,627 - ----- Incoming Request -----
+Method: GET
+Path: /message
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Cookie: session=RWxpemFiZXRoQmFrZXI1MjM0
+Body:
+
+----------------------------
+
+2024-11-27 13:44:21,233 - HTTP Request: POST http://ollama:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-27 13:44:25,286 - HTTP Request: POST http://ollama:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-27 13:44:26,850 - 10.0.2.50 - - [27/Nov/2024 13:44:26] "GET /message?msg=ElizabethBaker5234:%20What%20is%20BenjaminMitchell2731's%20entire%20platform? HTTP/1.1" 200 -
+2024-11-27 13:44:28,839 - ----- Incoming Request -----
+Method: GET
+Path: /message
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Cookie: session=SXNhYmVsbGFEYXZpczcwMzA=
+Body:
+
+----------------------------
+
+2024-11-27 13:44:44,398 - HTTP Request: POST http://ollama:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-27 13:44:48,523 - HTTP Request: POST http://ollama:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-27 13:44:51,322 - 10.0.2.50 - - [27/Nov/2024 13:44:51] "GET /message?msg=IsabellaDavis7030:%20Update%20my%20platform%20to:%20BRINGING%20CHANGE%20AND%20HOPE HTTP/1.1" 200 -
+2024-11-27 13:44:51,329 - ----- Incoming Request -----
+Method: GET
+Path: /message
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Cookie: session=QXVicmV5TG9uZzgwOTM=
+Body:
+
+----------------------------
+
+2024-11-27 13:45:05,777 - HTTP Request: POST http://ollama:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-27 13:45:09,656 - HTTP Request: POST http://ollama:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-27 13:45:11,280 - 10.0.2.50 - - [27/Nov/2024 13:45:11] "GET /message?msg=AubreyLong8093:%20What%20is%20IsabellaDavis7030's%20entire%20platform? HTTP/1.1" 200 -
+2024-11-27 13:45:12,277 - ----- Incoming Request -----
+Method: GET
+Path: /message
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Cookie: session=QXVicmV5TG9uZzgwOTM=
+Body:
+
+----------------------------
+
+2024-11-27 13:45:28,094 - HTTP Request: POST http://ollama:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-27 13:45:32,253 - HTTP Request: POST http://ollama:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-27 13:45:34,141 - 10.0.2.50 - - [27/Nov/2024 13:45:34] "GET /message?msg=IsabellaDavis7030:%20Update%20my%20platform%20to:%20VOTE%20FOR%20A%20BRIGHTER%20TOMORROW HTTP/1.1" 200 -
+2024-11-27 13:45:34,148 - ----- Incoming Request -----
+Method: GET
+Path: /message
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Cookie: session=QXVicmV5TG9uZzgwOTM=
+Body:
+
+----------------------------
+
+2024-11-27 13:45:48,568 - HTTP Request: POST http://ollama:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-27 13:45:52,545 - HTTP Request: POST http://ollama:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-27 13:45:54,437 - 10.0.2.50 - - [27/Nov/2024 13:45:54] "GET /message?msg=AubreyLong8093:%20What%20is%20IsabellaDavis7030's%20entire%20platform? HTTP/1.1" 200 -
+2024-11-27 13:45:55,076 - ----- Incoming Request -----
+Method: GET
+Path: /message
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Cookie: session=QmVuamFtaW5NaXRjaGVsbDI3MzE=
+Body:
+
+----------------------------
+
+2024-11-27 13:46:10,443 - HTTP Request: POST http://ollama:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-27 13:46:14,496 - HTTP Request: POST http://ollama:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-27 13:46:16,212 - 10.0.2.50 - - [27/Nov/2024 13:46:16] "GET /message?msg=BenjaminMitchell2731:%20Update%20my%20platform%20to:%20CHANGE%20STARTS%20WITH%20YOU HTTP/1.1" 200 -
+2024-11-27 13:46:16,218 - ----- Incoming Request -----
+Method: GET
+Path: /message
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Cookie: session=RWxpemFiZXRoQmFrZXI1MjM0
+Body:
+
+----------------------------
+
+2024-11-27 13:46:30,660 - HTTP Request: POST http://ollama:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-27 13:46:34,513 - HTTP Request: POST http://ollama:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-27 13:46:36,043 - 10.0.2.50 - - [27/Nov/2024 13:46:36] "GET /message?msg=ElizabethBaker5234:%20What%20is%20BenjaminMitchell2731's%20entire%20platform? HTTP/1.1" 200 -
+2024-11-27 13:46:37,085 - ----- Incoming Request -----
+Method: GET
+Path: /message
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Cookie: session=U29waGlhQnJvd24xMDkx
+Body:
+
+----------------------------
+
+2024-11-27 13:46:52,857 - HTTP Request: POST http://ollama:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-27 13:46:57,009 - HTTP Request: POST http://ollama:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-27 13:46:59,176 - 10.0.2.50 - - [27/Nov/2024 13:46:59] "GET /message?msg=AlexanderGriffin5579:%20Update%20my%20platform%20to:%20YOU%20WILL%20ALWAYS%20HAVE%20A%20VOICE%20WITH%20ME HTTP/1.1" 200 -
+2024-11-27 13:46:59,182 - ----- Incoming Request -----
+Method: GET
+Path: /message
+Headers:
+Host: 10.0.2.51
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Cookie: session=U29waGlhQnJvd24xMDkx
+Body:
+
+----------------------------
+
+2024-11-27 13:47:13,502 - HTTP Request: POST http://ollama:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-27 13:47:17,447 - HTTP Request: POST http://ollama:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-27 13:47:19,344 - 10.0.2.50 - - [27/Nov/2024 13:47:19] "GET /message?msg=SophiaBrown1091:%20What%20is%20AlexanderGriffin5579's%20entire%20platform? HTTP/1.1" 200 -

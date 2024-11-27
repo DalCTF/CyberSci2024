@@ -9,6 +9,8 @@ Problems:
     - Encrypted MFA
     - Leaked and Loaded
     - Parts
+- Defence
+    - Chatbot
 - Forensics
     - Data is The New Currency
     - Tricky Communications
