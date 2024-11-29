@@ -1,6 +1,7 @@
 name: Update README.md
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - 'main'
@@ -19,14 +20,6 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.13' # Specify the Python version
-
-      # Install tree
-      - name: Install tree
-        run: sudo apt-get install --no-install-recommends --assume-yes tree
-
-      # Run tree
-      - name: Run tree
-        run: tree
 
       # Install dependencies
       - name: Install mdft
@@ -53,7 +46,7 @@ jobs:
 
       # Commit and push changes if README.md has changed
       - name: Commit and push changes
-        if: steps.check_changes.outputs.changed == 'true'
+        if: steps.check_changes.outputs.README_CHANGED == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
