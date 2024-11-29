@@ -10,26 +10,38 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout the repository
+      # Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Step 2: Set up Python
+      # Set up Python
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.13' # Specify the Python version
 
-      # Step 3: Install dependencies
+      # Install tree
+      - name: Install tree
+        run: sudo apt-get install --no-install-recommends --assume-yes tree
+
+      # Run tree
+      - name: Run tree
+        run: tree
+
+      # Install dependencies
       - name: Install mdft
         run: pip install mdft
 
-      # Step 4: Run mdft on README.md
+      # Run mdft on README.md
       - name: Process README.md with mdft
         run: |
           python3 -m mdft README.md
 
-      # Step 5: Check for changes
+      # Show generated README.md file
+      - name: Show README.md
+        run: cat README.md
+
+      # Check for changes
       - name: Check for changes in README.md
         id: check_changes
         run: |
@@ -39,7 +51,7 @@ jobs:
             echo "README_CHANGED=false" >> $GITHUB_OUTPUT
           fi
 
-      # Step 6: Commit and push changes if README.md has changed
+      # Commit and push changes if README.md has changed
       - name: Commit and push changes
         if: steps.check_changes.outputs.changed == 'true'
         run: |

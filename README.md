@@ -21,6 +21,8 @@ Problems:
 	- [TrickyCommunications/](Forensics/TrickyCommunications)
 - [Reverse Engineering/](Reverse%20Engineering)
 	- [VectorVeil/](Reverse%20Engineering/VectorVeil)
+- [.github/](.github)
+	- [workflows/](.github/workflows)
 - [Pwn/](Pwn)
 	- [PollingStation/](Pwn/PollingStation)
 	- [RegistrationOrientedProgramming/](Pwn/RegistrationOrientedProgramming)
