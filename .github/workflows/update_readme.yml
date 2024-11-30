@@ -19,7 +19,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.13' # Specify the Python version
+          python-version: '>=3.9'
 
       # Install dependencies
       - name: Install mdft
@@ -40,8 +40,10 @@ jobs:
         run: |
           if [[ -n "$(git status --porcelain)" ]]; then
             echo "README_CHANGED=true" >> $GITHUB_OUTPUT
+            echo "Changes detected"
           else
             echo "README_CHANGED=false" >> $GITHUB_OUTPUT
+            echo "No changes detected"
           fi
 
       # Commit and push changes if README.md has changed
