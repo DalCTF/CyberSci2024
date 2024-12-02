@@ -16,8 +16,6 @@ Problems:
 - [Web/](Web)
 	- [BallotScanner/](Web/BallotScanner)
 	- [SecretRally/](Web/SecretRally)
-- [.github/](.github)
-	- [workflows/](.github/workflows)
 - [Pwn/](Pwn)
 	- [RegistrationOrientedProgramming/](Pwn/RegistrationOrientedProgramming)
 	- [PollingStation/](Pwn/PollingStation)
