@@ -1,6 +1,4 @@
-# Ballot Scanner 1 (CyberSci 2024 Web)
-
-This writeup describes the Ballot Scanner 1 challenge and it's solution in CyberSci 2024.
+# Ballot Scanner
 
 ## Flag 1
 The ballot scanner web-page was a single-page application which allows a user to upload a voting ballot. 
